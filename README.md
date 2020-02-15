@@ -18,7 +18,6 @@ int Size
 
 # IntMapSnapshot
 ```SourcePawn
-IntMapSnapshot()
 int GetKey(int index)
 int Length
 ```
