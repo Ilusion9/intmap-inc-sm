@@ -2,7 +2,7 @@
 IntMap data structure for sourcemod.
 
 # IntMap
-```
+```csharp
 IntMap()
 bool SetValue(int key, any value, bool replace = true)
 bool SetArray(int key, const any[] array, int num_items, bool replace = true)
@@ -17,7 +17,7 @@ int Size
 ```
 
 # IntMapSnapshot
-```
+```csharp
 IntMapSnapshot()
 int GetKey(int index)
 int Length
