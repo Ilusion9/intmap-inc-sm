@@ -16,7 +16,7 @@ methodmap IntMapSnapshot < Handle
 	// @error            Index out of range.
 	public int GetKey(int index)
 	{
-		if (index < 0 || index > this.Length)
+		if (index < 0 || index >= this.Length)
 		{
 			ThrowError("Index out of range");
 		}
