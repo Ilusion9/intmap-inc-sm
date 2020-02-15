@@ -1,1 +1,2 @@
-# intmap-inc-sm
+# Description
+IntMap data structure for sourcemod.
