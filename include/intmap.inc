@@ -1,3 +1,8 @@
+#if defined _intmap_included
+ #endinput
+#endif
+#define _intmap_included
+
 methodmap IntMapSnapshot < Handle
 {
 	// Returns the number of keys in the map snapshot.
